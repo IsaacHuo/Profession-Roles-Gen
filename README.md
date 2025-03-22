@@ -1,7 +1,5 @@
 # AI Role Card Generator
 
-[English](#ai-role-card-generator) | [中文版本](#chinese-version)
-
 A professional role card generation tool based on DeepSeek API that creates detailed character settings according to profession and specialized fields.
 
 ## Features
@@ -19,6 +17,10 @@ A professional role card generation tool based on DeepSeek API that creates deta
    ```bash
    pip install -r requirements.txt
    ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Usage
 
@@ -40,7 +42,8 @@ This project uses DeepSeek API to generate role card content. You need to:
 2. Get API key from personal settings page
 3. Open `main.py` file, locate the following code line:
    ```python
-   DEEPSEEK_API_KEY = "sk-00570a112c9c42fb95d15144393e4a8a"
+   # Configure API key here
+   DEEPSEEK_API_KEY = "your-api-key-here"  # Replace with your actual key
    ```
 4. Replace the content in quotes with your API key
 
@@ -66,6 +69,73 @@ A: Please check:
 1. API key is correctly configured
 2. Network connection is normal
 3. API balance is sufficient
+
+## Terminology Database Guide
+
+### 中文文档
+
+### 术语库使用指南
+
+### Introduction to Terminology Databases
+
+The project includes terminology databases for 10 professional fields. Each database contains:
+- Authoritative reference resources
+- Standard terminology collections
+- Industry-specific vocabulary
+
+### Database Selection Guidelines
+
+1. **Translation & Cross-cultural Communication**
+   - Suitable for: Translators, Foreign Affairs, Cultural Communication
+   - Features: China-specific discourse, UN standard terminology
+
+2. **Science & Engineering**
+   - Suitable for: Engineers, Researchers, Technical Experts
+   - Features: Academic vocabulary, Engineering standards
+
+3. **Medical & Biomedical**
+   - Suitable for: Doctors, Pharmacists, Biological Researchers
+   - Features: Professional medical terms, Latest pharmaceutical vocabulary
+
+4. **Legal & Judicial**
+   - Suitable for: Lawyers, Legal Affairs, Judicial Workers
+   - Features: Legal professional vocabulary, Judicial procedure terminology
+
+5. **Finance & Economics**
+   - Suitable for: Financial Analysts, Economists, Investment Advisors
+   - Features: Financial market terminology, Economic indicator vocabulary
+
+6. **IT & Computer Science**
+   - Suitable for: Programmers, System Architects, IT Experts
+   - Features: Technical framework terminology, Programming language vocabulary
+
+7. **Education & Professional Competency**
+   - Suitable for: Teachers, Trainers, Education Workers
+   - Features: Education standard terminology, Competency assessment vocabulary
+
+8. **Marketing & Management**
+   - Suitable for: Marketing Managers, Brand Directors, Management Consultants
+   - Features: Marketing strategy terminology, Management theory vocabulary
+
+9. **Architecture & Manufacturing**
+   - Suitable for: Architects, Engineers, Manufacturing Experts
+   - Features: Engineering standard terminology, Manufacturing process vocabulary
+
+10. **Emerging Industries & Cross-domain**
+    - Suitable for: Innovators, Cross-domain Talents
+    - Features: Emerging technology terminology, Cross-domain professional vocabulary
+
+### Usage Tips
+
+1. **Selecting Appropriate Database**
+   - Choose based on primary job responsibilities
+   - Reference multiple related field databases when needed
+   - Consider cross-domain terminology support for new professions
+
+2. **Optimizing Generation Results**
+   - Use standard vocabulary from the database
+   - Reference recommended authoritative sources
+   - Ensure accurate and standard use of professional terms
 
 ## Model Parameter Configuration
 
@@ -116,38 +186,26 @@ This project supports multiple AI models that you can switch between as needed:
 
 ## Technical Support
 
+### 中文文档
+
+### 技术支持
+
 For other issues, please submit an Issue or contact technical support.
 
 ---
 
-# Chinese Version
-
 # AI角色卡生成器
-
-A professional role card generation tool based on DeepSeek API that creates detailed character settings according to profession and specialized fields.
 
 一个基于DeepSeek API的专业角色卡生成工具，可以根据职业和专业领域生成详细的角色设定。
 
-## Features | 功能特点
-
-- Support role card generation for multiple professional fields
-- Customizable role description aspects
-- Professional terminology database ensures content accuracy
-- User-friendly graphical interface
+## 功能特点
 
 - 支持多个专业领域的角色卡生成
 - 可自定义角色描述方面
 - 使用专业术语库确保生成内容的专业性
 - 简单易用的图形界面
 
-## Installation | 安装步骤
-
-1. Ensure Python 3.x is installed
-2. Clone or download this project locally
-3. Run the following command in the project directory to install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+## 安装步骤
 
 1. 确保已安装Python 3.x版本
 2. 克隆或下载本项目到本地
@@ -156,37 +214,23 @@ A professional role card generation tool based on DeepSeek API that creates deta
    pip install -r requirements.txt
    ```
 
-## Usage | 使用方法
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 使用方法
 
 ### Windows
-Double-click `start.bat` file
-
 双击运行`start.bat`文件
 
 ### macOS/Linux
-Run in terminal:
-```bash
-chmod +x start.sh  # Only needed for first run
-./start.sh
-```
-
 在终端中运行：
 ```bash
 chmod +x start.sh  # 只需要第一次运行时执行
 ./start.sh
 ```
 
-## API Configuration | API配置说明
-
-This project uses DeepSeek API to generate role card content. You need to:
-
-1. Visit [DeepSeek Platform](https://platform.deepseek.com/) to register an account
-2. Get API key from personal settings page
-3. Open `main.py` file, locate the following code line:
-   ```python
-   DEEPSEEK_API_KEY = "sk-00570a112c9c42fb95d15144393e4a8a"
-   ```
-4. Replace the content in quotes with your API key
+## API配置说明
 
 本项目使用DeepSeek API生成角色卡内容。您需要：
 
@@ -194,36 +238,18 @@ This project uses DeepSeek API to generate role card content. You need to:
 2. 在个人设置页面获取API密钥
 3. 打开`main.py`文件，找到以下代码行：
    ```python
-   DEEPSEEK_API_KEY = "sk-00570a112c9c42fb95d15144393e4a8a"
+   # Configure API key here
+   DEEPSEEK_API_KEY = "your-api-key-here"  # Replace with your actual key
    ```
 4. 将引号中的内容替换为您的API密钥
 
-## Important Notes | 注意事项
-
-- Keep your API key secure and do not share it with others
-- Ensure your computer is connected to the internet when running the program
-- Role card generation may take 30-40 seconds, please be patient
+## 注意事项
 
 - 请妥善保管您的API密钥，不要分享给他人
 - 确保运行程序时电脑已连接到互联网
 - 生成角色卡可能需要30-40秒，请耐心等待
 
-## FAQ | 常见问题
-
-### Q: Program fails to start with "Python environment not detected"
-A: Please ensure Python 3.x is properly installed and added to system environment variables.
-
-### Q: Failed to install dependencies
-A: Try using the following command:
-```bash
-pip3 install -r requirements.txt --user
-```
-
-### Q: API error when generating role card
-A: Please check:
-1. API key is correctly configured
-2. Network connection is normal
-3. API balance is sufficient
+## 常见问题
 
 ### Q: 程序启动失败，提示"未检测到Python环境"
 A: 请确保已正确安装Python 3.x版本，并将Python添加到系统环境变量中。
@@ -240,14 +266,9 @@ A: 请检查：
 2. 网络连接是否正常
 3. API余额是否充足
 
-## Prompt Optimization Guide | Prompt优化指南
+## Prompt优化指南
 
-### Role Description Optimization | 职业描述优化
-
-When inputting a profession, it is recommended to:
-- Provide specific career direction, e.g., "Frontend Developer" is better than "Programmer"
-- Include industry background, e.g., "Product Manager in Internet Company"
-- Specify level/years of experience, e.g., "Senior Financial Analyst"
+### 职业描述优化
 
 在输入职业时，建议：
 - 提供具体的职业方向，如"前端开发工程师"比"程序员"更好
@@ -337,7 +358,7 @@ When inputting a profession, it is recommended to:
 
 Temperature参数用于控制生成内容的创造性和随机性，默认值为1.0。以下是不同场景的推荐设置：
 
-| 使用场景 | 推荐Temperature值 |
+| Use Case | Recommended Temperature |
 |---------|----------------|
 | 代码生成/数学解题 | 0.0 |
 | 数据抽取/分析 | 1.0 |
@@ -363,21 +384,4 @@ TEMPERATURE = 1.0  # 根据需要调整此值
      ```
 
 2. **Google Gemini**
-   - 获取Gemini API密钥：访问[Google AI Studio](https://makersuite.google.com)
-   - 配置Gemini：
-     ```python
-     MODEL_PROVIDER = "gemini"
-     GEMINI_API_KEY = "your-api-key"
-     ```
-
-3. **Anthropic Claude**
-   - 获取Claude API密钥：访问[Anthropic Console](https://console.anthropic.com)
-   - 配置Claude：
-     ```python
-     MODEL_PROVIDER = "claude"
-     CLAUDE_API_KEY = "your-api-key"
-     ```
-
-## 技术支持
-
-如遇到其他问题，请提交Issue或联系技术支持。
+   - 获取Gemini API密钥：访问[Google AI Studio](https://makersuite.google
