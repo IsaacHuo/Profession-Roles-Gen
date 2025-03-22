@@ -1,3 +1,15 @@
+# Hello, I am Amao ! | 你好，我是阿茂 !  👋
+# Nice to meet you ! | 很高兴在这里遇见你 ！ 🚀
+
+## Contact me | 联系我 
+- 📧 Email: 2210286979@qq.com
+- 💼 QQ群: 105653726
+- 🐦 Twitter: https://x.com/isaachuo
+
+[English Version](#english) | [中文版本](#chinese)
+
+<a name="english"></a>
+
 # AI Role Card Generator
 
 A professional role card generation tool based on DeepSeek API that creates detailed character settings according to profession and specialized fields.
@@ -71,10 +83,6 @@ A: Please check:
 3. API balance is sufficient
 
 ## Terminology Database Guide
-
-### 中文文档
-
-### 术语库使用指南
 
 ### Introduction to Terminology Databases
 
@@ -188,11 +196,7 @@ This project supports multiple AI models that you can switch between as needed:
 
 ### 中文文档
 
-### 技术支持
-
-For other issues, please submit an Issue or contact technical support.
-
----
+<a name="chinese"></a>
 
 # AI角色卡生成器
 
