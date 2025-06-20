@@ -1,11 +1,3 @@
-# Hello, I am Amao ! | 你好，我是阿茂 !  👋
-# Nice to meet you ! | 很高兴在这里遇见你 ！ 🚀
-
-## Contact me | 联系我 
-- 📧 Email: 2210286979@qq.com
-- 💼 QQ群: 105653726
-- 🐦 Twitter: https://x.com/isaachuo
-
 [English Version](#english) | [中文版本](#chinese)
 
 <a name="english"></a>
